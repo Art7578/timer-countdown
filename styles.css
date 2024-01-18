@@ -13,6 +13,8 @@ a {
     text-decoration: none;
 }
 
+/* Home */
+
 .header {
     /* background: rgb(127,14,218);
     background: linear-gradient(90deg, 
@@ -39,6 +41,29 @@ a {
 .link:hover {
     color: #ffd700;
 }
+
+.welcome {
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_title {
+    color: #d89912;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.welcome_image {
+    width: 600px;
+    height: 450px;
+}
+
+/* Timer */
 
 .stopwatch {
     height: 100vh;
@@ -79,15 +104,6 @@ a {
     margin: 0 20px;
 }
 
-.interval_countdown {
-    width: 90px;
-    margin: 0 30px;
-}
-
-.colon_countdown {
-    margin: 20px;
-}
-
 .buttons {
     display: flex;
 }
@@ -106,4 +122,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Countdown */
+
+.interval_countdown {
+    width: 90px;
+    margin: 0 30px;
+}
+
+.colon_countdown {
+    margin: 20px;
 }
